@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es" ng-app="gramApp">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Gramaticapp</title>
+
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+
+	<script src = "js/jquery-1.12.2.min.js"></script>
+	<script src = "js/materialize.min.js"></script>
+	<script src = "js/angular.min.js"></script>
+	<script src = "js/angular-route.min.js"></script>
+	<script src = "js/main.js"></script>
+
+	<script>
+		$(document).ready(function(){
+			$('.button-collapse').sideNav();
+		});
+	</script>
+</head>
+<body>
+	<header>
+		<ul id="slide-out" class="side-nav fixed">
+			<div class="userView">
+				<img class="background userIMG" src="img/userImg.jpg">
+				<h5 class="tit">Práctica gramatical</h5>
+			</div>
+			<div class="divider"></div>
+			<ul class="lateralNav">
+				<li><a href="#/" class="waves-effect waves-light inicioBtn"><i class="fa fa-home" aria-hidden="true"></i> Inicio</a></li>
+				<div class="divider"></div>
+				<h5 id="practicaTit">Práctica:</h5>
+				<li><a href="#/video" class="ejercicio waves-effect waves-light">Video explicativo</a></li>
+				<li><a href="#/ejercicio-1" class="ejercicio waves-effect waves-light">La coma</a></li>
+				<li><a href="#/ejercicio-2" class="ejercicio waves-effect waves-light">Práctica mixta</a></li>
+				<li><a href="#/teoria" class="ejercicio waves-effect waves-light">Teoría</a></li>
+			</ul>
+		</ul>
+		<div id="addFixed">
+			<nav class="hide-tab-desk">
+				<div class="nav-wrapper">
+					<a href="#!" class="brand-logo left"><img src="img/logo.png"></a>
+					<a href="#" data-activates="slide-out" class="button-collapse right"><i class="fa fa-bars" aria-hidden="true"></i></a>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<div ng-view autoscroll ></div>
+	</main>
+	<footer class="page-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col l6 m6 s12">
+					<h5 class="white-text">Práctica Gramatical</h5>
+					<p class="grey-text text-lighten-4">Ponga a prueba su conocimiento usando correctamente la coma y el punto y coma.</p>
+				</div>
+				<div class="col l4 m4 offset-l2 s12 right">
+					<h5 class="white-text">Prácticas</h5>
+					<ul>
+						<li><a class="grey-text text-lighten-3" href="#/video">Video</a></li>
+						<li><a class="grey-text text-lighten-3" href="#/ejercicio-1">La coma</a></li>
+						<li><a class="grey-text text-lighten-3" href="#/ejercicio-2">Práctica mixta</a></li>
+						<li><a class="grey-text text-lighten-3" href="#/teoria">Aprender</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<div class="container">
+				© 2016 Comunicación escrita
+				<a class="grey-text text-lighten-4 right" id="socialLinks" href="#!" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+				<a class="grey-text text-lighten-4 right" id="socialLinks" href="#!" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+				<a class="grey-text text-lighten-4 right" id="socialLinks" href="https://www.facebook.com/AprendeCastellano" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,25 @@
+.fonEjercicio2{
+	margin-top: 30px;
+	padding-bottom: 60px;
+}
+label{
+	color: #333!important;
+}
+#incorrecto{
+	background: #ff2121!important;
+}
+#correcto{
+	background: #7cb342;
+}
+.shadRed{
+	border: 1px solid #ff2121;
+	-webkit-box-shadow: 0 2.3px 10px 1px rgba(40,40,40,0.6)!important;
+	-moz-box-shadow: 0 2.3px 10px 1px rgba(40,40,40,0.6)!important;
+	box-shadow: 0 2.3px 10px 1px rgba(40,40,40,0.6)!important;
+}
+.shadGreen{
+	border: 1px solid #7cb342;
+	-webkit-box-shadow: 0 2.3px 10px 1px rgba(40,40,40,0.6)!important;
+	-moz-box-shadow: 0 2.3px 10px 1px rgba(40,40,40,0.6)!important;
+	box-shadow: 0 2.3px 10px 1px rgba(40,40,40,0.6)!important;
+}

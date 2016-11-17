@@ -1,0 +1,106 @@
+/*//////////////////GENERAL//////////////////////////////*/
+body{
+  background-color: #f2f2f2!important;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+main{
+  padding-left: 280px;
+  padding-right: 30px;
+  flex: 1 0 auto;
+}
+header, footer {
+      padding-left: 280px;
+      padding-right: 30px;
+    }
+@media only screen and (max-width : 992px) {
+header, main, footer {
+        padding-left: 0;
+        padding-right: 0;
+	}
+}
+#ejercicio1{
+  margin-top: 50px;
+}
+/*////////////////FIN GENERAL//////////////////////////////*/
+/*///////////////////NAV MÓVIL////////////////////////////*/
+.nav-wrapper{
+  background: rgba(255,255,255,1);
+}
+.tit{
+  margin-top: -62px;
+  padding-bottom: 8px;
+  margin-left: 15px!important;
+  font-size: 20px;
+  color: #fff;
+  text-shadow: 1px 1px 3px #222;
+}
+.inicioBtn{
+	margin-top: 14px;
+}
+.brand-logo{
+	margin-left: 20px;
+	margin-top: 6px;
+}
+.button-collapse{
+	margin-right: 30px;
+	color: #ff5252;
+}
+.hide-tab-desk{
+	display: none;
+}
+@media screen and (max-width: 992px){
+  .hide-tab-desk{
+    display: block;
+  }
+}
+#practicaTit{
+  font-size: 18px;
+  margin-left: 15px;
+}
+.ejercicio{
+  margin-left: 12px;
+}
+/*///////////////////FIN NAV MÓVIL///////////////////////*/
+/*////////////////////SIDENAV/////////////////////////////*/
+.userIMG{
+  height: 200px;
+}
+/*//////////////////FIN SIDENAV/////////////////////////*/
+/*////////////////////FOOTER///////////////////////////*/
+#socialLinks{
+	margin-right: 15px;
+}
+.page-footer{
+  background: #ff5252!important;
+}
+/*//////////////////FIN FOOTER///////////////////////////*/
+/*////////////////////HOME//////////////////////////////*/
+#contenedorHome{
+	padding-top: 80px;
+	padding-bottom: 120px;
+	margin-top: 3%;
+}
+#titSelecEjercicio{
+	padding-bottom: 30px;
+}
+#btHome{
+	text-transform: none;
+}
+/*///////////////FIN HOME//////////////////////////////*/
+/*//////////////EJERCICIO 1///////////////////////////*/
+.fonEjercicio1{
+  margin-top: 30px;
+  padding-bottom: 60px;
+}
+#practicaFinalizada i{
+  font-size: 50px;
+}
+#reiniciar{
+  text-transform: capitalize;
+}
+/*///////////FIN EJERCICIO 1///////////////////////////*/
+/*/////////////////TOAST//////////////////////////////*/
+
+/*///////////////FIN TOAST///////////////////////////*/
